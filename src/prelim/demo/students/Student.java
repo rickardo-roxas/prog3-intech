@@ -1,4 +1,4 @@
-package prelim.demo;
+package prelim.demo.students;
 
 import java.io.Serializable;
 

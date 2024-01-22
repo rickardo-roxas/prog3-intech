@@ -1,4 +1,4 @@
-package prelim.demo;
+package prelim.demo.voting;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
