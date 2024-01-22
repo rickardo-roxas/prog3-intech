@@ -9,6 +9,9 @@ import java.net.Socket;
 public class SampleServer1 {
     public static void main(String[] args) {
         int port = 2000;
+
+        // try with resources that automatically closes when the block finishes to execute.
+        // no need to close I/O and sockets manually
         try (
                 ServerSocket sSocket = new ServerSocket(port);
                 Socket cSocket = sSocket.accept();
